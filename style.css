@@ -1,14 +1,23 @@
 html, body, *{
  padding: 0;
- margin: 0;
+ margin: 5;
  box-sizing: border-box; 
- font-size: 62.5%;
+ font-size: 100%;
 }
 
-.parent{
-    display: flex;
+.intro{
+    text-align: center;
+    font-size: 50;
 }
 
-.child{
-    display: flex;
+img {
+  padding: 10;
+  padding-bottom: 30;
+border: 1px solid rgb(92, 92, 92);
+}
+
+.followimg{
+    position: relative; 
+    bottom: 35px;
+    left: 120;
 }
