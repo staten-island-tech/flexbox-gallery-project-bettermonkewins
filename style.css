@@ -14,10 +14,17 @@ img {
   padding: 10;
   padding-bottom: 30;
 border: 1px solid rgb(92, 92, 92);
+width: 33.5rem;
+height: 33.5rem;
+border: 0.5rem solid grey;
 }
 
 .followimg{
     position: relative; 
-    bottom: 35px;
-    left: 120;
+    bottom: 2.5rem;
+    text-align: center;
+}
+
+.column{
+  display: flex;
 }
