@@ -1,29 +1,41 @@
-html, body, *{
- padding: 0;
- margin: 5;
- box-sizing: border-box; 
- font-size: 100%;
+html,
+body,
+* {
+  padding: 0;
+  margin: 5;
+  box-sizing: border-box;
+  font-size: 100%;
+  background-color: #a0ca92;
+  color: #59656f;
+  font-family: "comic-sans";
 }
 
-.intro{
-    text-align: center;
-    font-size: 50;
+#gallery-intro {
+  font: 60rem;
+  align-content: center;
+}
+
+.intro {
+  text-align: center;
+  font-size: 50;
 }
 
 img {
   padding: 10;
   padding-bottom: 30;
-width: 23.5rem;
-height: 23.5rem;
-border: 0.5rem solid grey;
+  width: 25rem;
+  height: 25rem;
+  border: 0.5rem solid #e0be36;
 }
 
-.followimg{
-    position: relative; 
-    bottom: 2.5rem;
-    text-align: center;
+.followimg {
+  position: relative;
+  bottom: 2.5rem;
+  text-align: center;
 }
 
-.column{
+.column {
   display: flex;
+  justify-content: center;
+  justify-content: ;
 }
