@@ -5,9 +5,12 @@ body,
   margin: 5;
   box-sizing: border-box;
   font-size: 100%;
-  background-color: #f5eccd;
-  color: #1b065e;
   font-family: "comic-sans";
+}
+
+body {
+  background-color: #f5eccd;
+  color: #fcc8c2;
 }
 
 #intro {
@@ -15,13 +18,14 @@ body,
   font-size: 5rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #032b43;
 }
 
 img {
   padding: 10;
   width: 25rem;
   height: 25rem;
-  background-color: #fcc8c2;
+  background-color: #393e41;
   border-radius: 0.5rem;
 }
 
@@ -34,7 +38,7 @@ img {
   top: -25.5rem;
   text-align: center;
   font-size: 1.5rem;
-  background-color: #fcc8c2;
+  background-color: #393e41;
   border-radius: 01.5rem;
 }
 
@@ -43,11 +47,12 @@ img {
   bottom: 4rem;
   text-align: center;
   font-size: 1.5rem;
-  background-color: #fcc8c2;
+  background-color: #393e41;
   border-radius: 01.5rem;
+  padding-bottom: 1rem;
 }
-
 .column {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
