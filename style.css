@@ -15,44 +15,79 @@ body {
 
 #intro {
   text-align: center;
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #032b43;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 img {
   padding: 10;
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   background-color: #393e41;
   border-radius: 0.5rem;
 }
 
 .overlay {
-  box-shadow: 0.5rem 0.5rem #00000081;
+  box-shadow: 0.5rem -0.75rem #00000081;
 }
 
 .followimg-top {
   position: relative;
-  top: -25.5rem;
+  top: -24rem;
   text-align: center;
   font-size: 1.5rem;
   background-color: #393e41;
   border-radius: 01.5rem;
+  padding: 0 1rem 0 1rem;
+  box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
 }
 
 .followimg-bottom {
   position: relative;
-  bottom: 4rem;
+  bottom: 2rem;
   text-align: center;
   font-size: 1.5rem;
   background-color: #393e41;
   border-radius: 01.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  padding: 0 1rem 0 1rem;
+  box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
 }
+
 .column {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+.hover {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
