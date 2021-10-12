@@ -41,8 +41,8 @@ img {
   text-align: center;
   font-size: 1.5rem;
   background-color: #393e41;
-  border-radius: 01.5rem;
-  padding: 0 1rem 0 1rem;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem 0 0.5rem;
   box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
 }
 
@@ -52,10 +52,10 @@ img {
   text-align: center;
   font-size: 1.5rem;
   background-color: #393e41;
-  border-radius: 01.5rem;
+  border-radius: 0.5rem;
   padding-bottom: 0.5rem;
   margin-top: 1rem;
-  padding: 0 1rem 0 1rem;
+  padding: 0 0.5rem 0 0.5rem;
   box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
 }
 
