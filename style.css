@@ -11,7 +11,7 @@ body,
 body {
   background-color: #f5eccd;
   color: #fcc8c2;
-  animation: fadeIn ease 1s;
+  animation: fadeIn ease 3s;
 }
 
 #intro {
@@ -22,6 +22,8 @@ body {
   color: #032b43;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem 0 0.5rem;
 }
 
 .overlay {
@@ -75,19 +77,75 @@ body {
 }
 
 .overlay:hover {
-  animation: big 1s;
+  animation: big-img 100s infinite;
 }
 
 .followimg-bottom:hover {
-  animation: jump infinite;
+  animation: jump 2s infinite;
 }
 
-@keyframes big {
+.followimg-top:hover {
+  animation: big-image-text-above 5s infinite;
+}
+
+.picture9:hover {
+  animation: fade-out 50s infinite;
+}
+
+.intro:hover {
+  animation: disapear-down 5s infinite;
+}
+
+@keyframes disapear-down {
   0% {
-    transform: scale(0);
+    opacity: 100;
+    transform: translate(0rem);
   }
   100% {
-    transform: scale(10);
+    opacity: 0;
+    transform: translate(5rem);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 100;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes big-image-text-above {
+  0% {
+    transform: translateY(0rem);
+  }
+
+  20% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(-1rem);
+  }
+}
+
+@keyframes big-img {
+  0% {
+    transform: scale(1);
+  }
+
+  1% {
+    transform: scale(1.5);
+    transform: translateY(-1rem);
+  }
+  3% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.5);
   }
 }
 
@@ -102,10 +160,14 @@ body {
 
 @keyframes jump {
   0% {
-    transform: translate(0rem);
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
   }
 
   100% {
-    transform: translate(1rem);
+    transform: rotate(360deg);
   }
 }
