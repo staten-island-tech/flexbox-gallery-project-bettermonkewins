@@ -171,3 +171,210 @@ body {
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px) {
+  .overlay {
+    padding: 0.5rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: #393e41;
+    border-radius: 1rem;
+    box-shadow: 0.5rem -0.75rem #00000081;
+    z-index: ;
+  }
+
+  .photo-gallery {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .followimg-top {
+    position: relative;
+    top: -19rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+  }
+
+  .followimg-bottom {
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+    animation: jump infinite;
+  }
+}
+
+@media (max-width: 481px) {
+  .overlay {
+    padding: 10;
+    width: 20rem;
+    height: 20rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem -0.75rem #00000081;
+    z-index: 1;
+  }
+
+  .photo-gallery {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+  }
+
+  .followimg-top {
+    position: relative;
+    top: -24rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+  }
+
+  .followimg-bottom {
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+    animation: jump infinite;
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    padding: 0.5rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: #393e41;
+    border-radius: 1rem;
+    box-shadow: 0.5rem -0.75rem #00000081;
+    z-index: ;
+  }
+
+  .photo-gallery {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .followimg-top {
+    position: relative;
+    top: -19rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+  }
+
+  .followimg-bottom {
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+    animation: jump infinite;
+  }
+}
+
+@media (max-width: 481px) {
+  .overlay {
+    padding: 10;
+    width: 20rem;
+    height: 20rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem -0.75rem #00000081;
+    z-index: 1;
+  }
+
+  .photo-gallery {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+  }
+
+  .followimg-top {
+    position: relative;
+    top: -24rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+  }
+
+  .followimg-bottom {
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #393e41;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: 0.5rem -0.4rem rgba(0, 0, 0, 0.445);
+    animation: jump infinite;
+  }
+}
